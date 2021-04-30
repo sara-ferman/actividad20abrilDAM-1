@@ -1,0 +1,5 @@
+# Creación de la calculadora
+Para la creación de la calculadora necesitaremos inicialmente un número que indicara que operacion queremos realizar y después 2 variables que seran con las que trabajemos para realizar dichas operaciones. Siempre las operaciones se realizarán con 2 numeros.
+
+## Funcionamiento de la calculadora
+Primero nos pide que introduzcamos un número que indicará que operacion vamos a realizar,para ello imprimimos un menú el cual asocia un número a una operación y se escribe en el programa que número queremos (operación).Una vez introducido el número que indica la operación que queremos realizar,el programa pedira 2 variables las cuales son de tipo float. Una vez realizado el cálculo, nos muestra el resultado de la operación y nos pregunta si queremos realizar otra operación, en caso de que la respuesta sea que sí, nos pide introducir otra variable la cual utilizaremos para realizar otra operación y nos vuelve a repetir el menu para elegir otra operación, una vez que hemos elegido la operación nos volvera a pedir 2 variables con las cuales realizará el calculo.La calculadora acaba cuando decidimos que no queremos realizar mas operaciones.
