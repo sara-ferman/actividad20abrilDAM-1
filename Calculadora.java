@@ -14,9 +14,9 @@ public class Calculadora {
  
         do{
             
-            //Pregunta qué operación desea realizar,la operacion sera en función del número que introduzca el usuario
+            //Pregunta quÃ© operaciÃ³n desea realizar,la operacion sera en funciÃ³n del nÃºmero que introduzca el usuario
             do {
-                System.out.println("\n ¿Que operación desea hacer?");
+                System.out.println("\n Â¿Que operaciÃ³n desea hacer?");
                 System.out.println("Teniendo en cuenta que: \n 1 = sumar \n 2 = restar \n"
                         + " 3 = multiplicar \n 4 = dividir \n ");
             operacion = sc.nextLine();
@@ -28,36 +28,26 @@ public class Calculadora {
  
             do{
                 comprobar = true;
+		    
+		     System.out.println("\n Introduzca el primer nÃºmero de la operaciÃ³n. ");
+                     n1 = sc.nextFloat();
+                     System.out.println("\n Introduzca el segundo nÃºmero de la operaciÃ³n.");
+                     n2 = sc.nextFloat();
+		    
                 switch(operacion){
                     case "1":
-                        System.out.println("\n Introduzca el primer número de la operación. ");
-                        n1 = sc.nextFloat();
-                        System.out.println("\n Introduzca el segundo número de la operación.");
-                         n2 = sc.nextFloat();
                         res = n1 + n2;
                         System.out.println("\n El resultado de la suma es: "+res);
                         break;
                     case "2":
-                    	System.out.println("\n Introduzca el primer número de la operación. ");
-                        n1 = sc.nextFloat();
-                        System.out.println("\n Introduzca el segundo número de la operación.");
-                         n2 = sc.nextFloat();
                         res = n1 - n2;
                         System.out.println("\n El resultado de la resta es: "+res);
                         break;
                     case "3":
-                    	System.out.println("\n Introduzca el primer número de la operación. ");
-                        n1 = sc.nextFloat();
-                        System.out.println("\n Introduzca el segundo número de la operación.");
-                         n2 = sc.nextFloat();
                         res = n1 * n2;
                         System.out.println("\n El resultado de la multiplicacion es: "+res);
                         break;
                     case "4":
-                    	System.out.println("\n Introduzca el primer número de la operación. ");
-                        n1 = sc.nextFloat();
-                        System.out.println("\n Introduzca el segundo número de la operación.");
-                         n2 = sc.nextFloat();
                         res = n1 / n2;
                         System.out.println("\n El resultado de la division es: "+res);
                         break;
@@ -65,12 +55,12 @@ public class Calculadora {
             }while(comprobar != true);
  
             System.out.println("(" + n1 + ") " + "operacion" + " (" + n2 + ")" + " = " + res);
-            /*Pregunta al usuario si desea realizar otra operación o quiere salir */
-            System.out.println("\n ¿Desea hacer alguna otra operación? \n");
+            /*Pregunta al usuario si desea realizar otra operaciÃ³n o quiere salir */
+            System.out.println("\n Â¿Desea hacer alguna otra operaciÃ³n? \n");
             System.out.println(" [s/n]");
             do{
                 comprobar = true;
-                operacion = sc.nextLine();
+                operacion = sc.next();
  
                 switch (operacion) {
                     case "s":
