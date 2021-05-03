@@ -1,5 +1,11 @@
-# Creación de la calculadora
-Para la creación de la calculadora necesitaremos inicialmente un número que indicara que operacion queremos realizar y después 2 variables que seran con las que trabajemos para realizar dichas operaciones. Siempre las operaciones se realizarán con 2 numeros.
+# Información del proyecto
 
-## Funcionamiento de la calculadora
-Primero nos pide que introduzcamos un número que indicará que operacion vamos a realizar,para ello imprimimos un menú el cual asocia un número a una operación y se escribe en el programa que número queremos (operación).Una vez introducido el número que indica la operación que queremos realizar,el programa pedira 2 variables las cuales son de tipo float. Una vez realizado el cálculo, nos muestra el resultado de la operación y nos pregunta si queremos realizar otra operación, en caso de que la respuesta sea que sí, nos pide introducir otra variable la cual utilizaremos para realizar otra operación y nos vuelve a repetir el menu para elegir otra operación, una vez que hemos elegido la operación nos volvera a pedir 2 variables con las cuales realizará el calculo.La calculadora acaba cuando decidimos que no queremos realizar mas operaciones.
+Es una programa java sobre una calculadora que permite sumar, restar , multiplicar y dividir.
+
+## Instrucciones
+
+Para usar el programa basta con elegir que operación se desea realizar e introducir 2 números, luego mostrará el resultado de la operación y preguntará si se desea hacer otra operación, si la respuesta es sí introduzca "s" o "S" en caso negativo "n" o "N".
+
+## Compilación y Ejecución
+
+Para compilar en windows deberas acceder donde se encuentra el código e introducir los siguientes comandos: Compilación: "javac Calculadora.java" Ejecución: "java Calculadora" o "java Calculadora.java"
